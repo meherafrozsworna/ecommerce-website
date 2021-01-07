@@ -1,0 +1,24 @@
+.navbarr{
+    padding: 10px;
+    position: fixed ;
+    top: 0px;
+    width: 100%;
+    color:white;
+    background: #000;
+}
+
+
+.one{
+    float: left ;
+}
+
+.two{
+    margin-left: 20px;
+    float: left ;
+    text-emphasis: emphasis;
+    
+}
+.three{
+    
+    float: right;
+}
