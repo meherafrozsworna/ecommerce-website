@@ -19,13 +19,6 @@ export default class ProductList extends Component {
                                     key={product.id}
                                     product={product} />;
                                 });
-                                
-                                console.log("****");
-                                console.log(value);
-                                console.log(value.products);
-
-                                
-
                             }}
                         </ProductConsumer>
                     </div>
