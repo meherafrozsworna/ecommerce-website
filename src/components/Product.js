@@ -14,7 +14,7 @@ export default class Product extends Component {
                     <div className="img-container "
 
                     onClick = {()=> console.log("clicked image")}>
-                        <Link to="/details">
+                        <Link to={{ pathname: '/details/'+id}}>
                             <img src={img} alt="product" 
                             className="card-img-top " />
                         </Link>
@@ -69,7 +69,7 @@ const ProductWrapper = styled.div`
      }
      img-container{
          position: relative;
-         //overflow: hidden;
+         overflow: hidden;
      }
      .card-img-top{
         transition: all 1s linear;
@@ -78,9 +78,9 @@ const ProductWrapper = styled.div`
          transform:scale(1.02);
      }
      .cart-btn{
-         position:absolute;
+         //position:absolute;
          bottom:20;
-         right:0;
+         left:0;
          padding: 0.2rem 0.4rem;
          background: var(--lightblue);
          border: none;
